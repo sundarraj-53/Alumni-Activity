@@ -1,0 +1,90 @@
+body
+{
+    background:white;
+    margin:0px;
+    padding:0px;
+}
+#start
+{
+   background-color:white;
+   padding-top: 1px;
+   margin-bottom:5px;
+   border:1px solid #0000A0;
+}
+#logo
+{
+    float:left;
+    padding-right:3px;
+    display:fixed;
+}
+#Head
+{
+    color:#358fc7;
+    Font-size:17px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-shadow:1px 1px #358fc7;
+}
+#navbar
+{
+    float:right;
+    margin:0;
+    padding:0px;
+}
+li
+{
+    font-size:22px;
+    padding-right:25px;
+    list-style:none;
+}
+li a{
+    text-decoration:none;
+    color:black;
+}
+#navbar li{
+    display:inline-block;
+}
+#dropdown
+{ 
+    display:none;;
+    float:right;
+    overflow:hidden;
+}
+#dropdown #dd1
+{
+    border:none;
+    font-size:22px;
+    background-color:inherit;
+    font-family:inherit;
+    text-decoration:none;
+    padding-right:25px;
+}
+#navbar li a:hover,#dropdown:hover #dd1
+{
+    color:palevioletred;
+    background:none;
+}
+#dd
+{
+    float:left;
+    display:block;
+    position:absolute;
+    color:white;
+}
+#dd a
+{
+    float:none;
+    text-decoration:none;
+    display:block;
+    text-align:right;
+    color:black;
+    padding-bottom:5px;
+    margin-left:300px
+}
+#dd a:hover
+{
+    color:palevioletred;
+}
+#dropdown:hover,#dd
+{
+    display:block;
+}
